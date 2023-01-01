@@ -1016,7 +1016,7 @@ img {
     margin: 0;
   }
   .home__container {
-    row-gap: 5rem;
+    row-gap: 2rem;
   }
   .home__content {
     padding-top: 8rem;
@@ -1150,3 +1150,4 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* gsap Animation */

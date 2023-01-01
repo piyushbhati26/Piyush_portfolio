@@ -194,3 +194,51 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+/*============== GSAP Animations =============*/
+
+gsap.from(".home__blob", { opacity: 0, duration: 2, delay: 0.5, x: 60 });
+gsap.from(".home__data", {
+  opacity: 0,
+  duration: 2,
+  delay: 0.8,
+  y: 25,
+});
+gsap.from(".home__scroll", { opacity: 0, duration: 2, delay: 2, y: 25 });
+
+gsap.from(".change-theme", { opacity: 0, duration: 3, delay: 2, y: 25 });
+
+gsap.from(".home__title, .home__subtitle, .home__description, .home__button", {
+  opacity: 0,
+  duration: 2,
+  delay: 1,
+  y: 25,
+  ease: "expo.out",
+  stagger: 0.2,
+});
+
+gsap.from(".nav__logo, .nav__toggle", {
+  opacity: 0,
+  duration: 2,
+  delay: 1.5,
+  y: 25,
+  ease: "expo.out",
+  stagger: 0.2,
+});
+
+gsap.from(".nav__item", {
+  opacity: 0,
+  duration: 2,
+  delay: 1.8,
+  y: 25,
+  ease: "expo.out",
+  stagger: 0.2,
+});
+
+gsap.from(".home__social-icon", {
+  opacity: 0,
+  duration: 2,
+  delay: 2.3,
+  y: 25,
+  ease: "expo.out",
+  stagger: 0.2,
+});
